@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - ci/ansible-lint-job
     paths-ignore:
       - '**.md'
       - '**.rst'
